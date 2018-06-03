@@ -17,7 +17,7 @@ def getFiles(path):
     for root, dirs, files in os.walk(path, topdown=True):
         for file in files:
             if file.split('.')[-1] in ['mp3']:
-                filename = os.path.join(root, file)
+                filename = os.path.join(root, filetest1)
                 audio_files.append(filename)
 
 def setFileMeta():
@@ -45,3 +45,4 @@ if __name__ == '__main__':
         print e
     time.sleep(100)
 
+test1 change
