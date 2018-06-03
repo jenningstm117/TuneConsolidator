@@ -34,7 +34,7 @@ def setFileMeta():
             audiofile.tag.save()
         except:
             print 'Failed to update data for ' + file
-
+test2 change 2
 if __name__ == '__main__':
     global artist, album
     album = unicode(raw_input('Album: '))
