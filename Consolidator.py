@@ -34,6 +34,8 @@ def setFileMeta():
         except:
             print 'Failed to update data for ' + file
 
+            test2 change
+
 if __name__ == '__main__':
     global artist, album
     album = unicode(raw_input('Album: '))
